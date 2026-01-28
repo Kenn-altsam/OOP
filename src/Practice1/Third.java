@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Third {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
-
-
+        System.out.println("Enter the grade in number: ");
         double grade = myScanner.nextDouble();
         String letterGrade = "";
 
@@ -33,7 +32,7 @@ public class Third {
         } else {
             letterGrade = "F";
         }
-        System.out.println(letterGrade);
+        System.out.println("Your grade in letter is: " + letterGrade);
     }
 
 }

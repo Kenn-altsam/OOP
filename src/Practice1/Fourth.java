@@ -6,8 +6,11 @@ public class Fourth {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
 
+        System.out.println("Enter the a: ");
         double a = myScanner.nextDouble();
+        System.out.println("Enter the b: ");
         double b = myScanner.nextDouble();
+        System.out.println("Enter the c: ");
         double c = myScanner.nextDouble();
 
         if (a == 0) {
