@@ -15,9 +15,18 @@ public abstract class Animal {
         this.breed = breed;
     }
 
-    public String getName() { return name; }
-    public int getAge() { return age; }
-    public String getBreed() { return breed; }
+    // getters
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getBreed() {
+        return breed;
+    }
 
     public abstract String getSound();
 
@@ -27,6 +36,6 @@ public abstract class Animal {
 
     @Override
     public String toString() {
-        return getClass().getSimpleName() + "[" + name + " (" + breed + "), age " + age + ", says: " + getSound() + "]";
+        return "Animal: " + "[" + name + " (" + breed + "), age " + age + ", says: " + getSound() + "]";
     }
 }

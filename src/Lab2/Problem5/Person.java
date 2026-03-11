@@ -13,9 +13,16 @@ public abstract class Person {
         this.pet = null;
     }
 
-    public String getName() { return name; }
-    public int getAge() { return age; }
-    public Animal getPet() { return pet; }
+    // getters
+    public String getName() {
+        return name;
+    }
+    public int getAge() {
+        return age;
+    }
+    public Animal getPet() {
+        return pet;
+    }
 
     public void assignPet(Animal pet) {
         this.pet = pet;
@@ -66,11 +73,11 @@ public abstract class Person {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Person)) return false;
-        Person p = (Person) o;
-        return age == p.age && Objects.equals(name, p.name);
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (!(obj instanceof Person)) return false;
+        Person person = (Person) obj;
+        return age == person.age && Objects.equals(name, person.name);
     }
 
     @Override

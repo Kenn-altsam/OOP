@@ -13,8 +13,12 @@ public class Fish extends Animal {
         this.waterType = waterType;
     }
 
-    public String getWaterType() { return waterType; }
+    public String getWaterType() {
+        return waterType;
+    }
 
     @Override
-    public String getSound() { return "...blub blub..."; }
+    public String getSound() {
+        return "...blub blub...";
+    }
 }

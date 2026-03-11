@@ -21,9 +21,16 @@ public class PhDStudent extends Person {
         super.assignPet(pet);
     }
 
-    public String getMajor() { return major; }
-    public String getResearchTopic() { return researchTopic; }
-    public int getPublicationCount() { return publicationCount; }
+    // getters
+    public String getMajor() {
+        return major;
+    }
+    public String getResearchTopic() {
+        return researchTopic;
+    }
+    public int getPublicationCount() {
+        return publicationCount;
+    }
 
     public void publishPaper() {
         publicationCount++;

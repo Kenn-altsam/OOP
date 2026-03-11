@@ -16,9 +16,16 @@ public class Employee extends Person {
         this.salary = salary;
     }
 
-    public String getJobTitle() { return jobTitle; }
-    public double getSalary() { return salary; }
+    // getters
+    public String getJobTitle() {
+        return jobTitle;
+    }
+    public double getSalary() {
+        return salary;
+    }
 
     @Override
-    public String getOccupation() { return "Employee (" + jobTitle + ")"; }
+    public String getOccupation() {
+        return "Employee (" + jobTitle + ")";
+    }
 }

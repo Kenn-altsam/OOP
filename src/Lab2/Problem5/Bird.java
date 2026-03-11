@@ -10,5 +10,7 @@ public class Bird extends Animal {
     }
 
     @Override
-    public String getSound() { return "♪ Tweet ♪"; }
+    public String getSound() {
+        return "♪ Tweet ♪";
+    }
 }

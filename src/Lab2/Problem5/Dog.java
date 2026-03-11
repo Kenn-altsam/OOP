@@ -13,8 +13,12 @@ public class Dog extends Animal {
         this.temperament = temperament;
     }
 
-    public String getTemperament() { return temperament; }
+    public String getTemperament() {
+        return temperament;
+    }
 
     @Override
-    public String getSound() { return "Woof!"; }
+    public String getSound() {
+        return "Woof!";
+    }
 }

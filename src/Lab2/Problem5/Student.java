@@ -10,13 +10,19 @@ public class Student extends Person {
         this.credits = 0;
     }
 
-    public String getMajor() { return major; }
-    public int getCredits() { return credits; }
+    public String getMajor() {
+        return major;
+    }
+    public int getCredits() {
+        return credits;
+    }
 
     public void earnCredits(int amount) {
         this.credits += amount;
     }
 
     @Override
-    public String getOccupation() { return "Student (" + major + ")"; }
+    public String getOccupation() {
+        return "Student (" + major + ")";
+    }
 }

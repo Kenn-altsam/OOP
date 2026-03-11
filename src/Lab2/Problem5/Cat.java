@@ -13,8 +13,12 @@ public class Cat extends Animal {
         this.isIndoor = isIndoor;
     }
 
-    public boolean isIndoor() { return isIndoor; }
+    public boolean isIndoor() {
+        return isIndoor;
+    }
 
     @Override
-    public String getSound() { return "Meow"; }
+    public String getSound() {
+        return "Meow";
+    }
 }
