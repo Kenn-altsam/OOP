@@ -1,6 +1,6 @@
-package Practice4.Classes;
+package Practice4.task1.Classes;
 
-import Practice4.Interfaces.CanHavePizza;
+import Practice4.task1.Interfaces.CanHavePizza;
 
 public class Cat extends Animal implements CanHavePizza {
     private String furColor;

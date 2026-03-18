@@ -1,6 +1,6 @@
-package Practice4.Classes;
+package Practice4.task1.Classes;
 
-import Practice4.Interfaces.Movable;
+import Practice4.task1.Interfaces.Movable;
 
 public class Person implements Movable {
     protected String name;
@@ -8,8 +8,8 @@ public class Person implements Movable {
     protected String walletId;
 
     public Person(String name, int age, String walletId) {
-        this.name     = name;
-        this.age      = age;
+        this.name = name;
+        this.age = age;
         this.walletId = walletId;
     }
 

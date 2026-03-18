@@ -1,4 +1,4 @@
-package Practice4.Interfaces;
+package Practice4.task1.Interfaces;
 
 public interface Movable {
     void move();

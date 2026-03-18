@@ -1,6 +1,6 @@
-package Practice4.Classes;
+package Practice4.task1.Classes;
 
-import Practice4.Interfaces.CanHavePizza;
+import Practice4.task1.Interfaces.CanHavePizza;
 
 public class Restaurant {
     private String name;
@@ -12,8 +12,7 @@ public class Restaurant {
     }
 
     public boolean servePizza(CanHavePizza eater) {
-        System.out.println("\n[" + name + "] Serving "
-                + eater.getPizzaPreference() + " pizza...");
+        System.out.println("\n[" + name + "] Serving " + eater.getPizzaPreference() + " pizza...");
 
         eater.eatPizza();
 

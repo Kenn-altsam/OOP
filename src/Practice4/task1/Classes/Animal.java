@@ -1,6 +1,6 @@
-package Practice4.Classes;
+package Practice4.task1.Classes;
 
-import Practice4.Interfaces.Movable;
+import Practice4.task1.Interfaces.Movable;
 
 public abstract class Animal implements Movable {
     protected String name;

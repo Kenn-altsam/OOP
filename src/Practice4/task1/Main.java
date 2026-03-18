@@ -1,10 +1,10 @@
-package Practice4;
+package Practice4.task1;
 
-import Practice4.Interfaces.CanHavePizza;
-import Practice4.Classes.Restaurant;
-import Practice4.Classes.Cat;
-import Practice4.Classes.Student;
-import Practice4.Classes.Animal;
+import Practice4.task1.Interfaces.CanHavePizza;
+import Practice4.task1.Classes.Restaurant;
+import Practice4.task1.Classes.Cat;
+import Practice4.task1.Classes.Student;
+import Practice4.task1.Classes.Animal;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,7 +24,7 @@ public class Main {
         for (CanHavePizza e : eaters) {
             System.out.println(e.getPizzaPreference());
         }
-        
+
         for (CanHavePizza e : eaters) {
             if (e instanceof Animal a) a.breathe();
         }

@@ -1,10 +1,9 @@
-package Practice4.Classes;
+package Practice4.task1.Classes;
 
-import Practice4.Interfaces.CanHavePizza;
-import Practice4.Interfaces.CanHaveRetake;
+import Practice4.task1.Interfaces.CanHavePizza;
+import Practice4.task1.Interfaces.CanHaveRetake;
 
-public class Student extends Person
-        implements CanHavePizza, CanHaveRetake {
+public class Student extends Person implements CanHavePizza, CanHaveRetake {
     private String major;
     private double gpa;
 
